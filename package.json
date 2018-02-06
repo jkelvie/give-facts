@@ -1,0 +1,25 @@
+{
+  "name": "GiveFactsPOC",
+  "version": "0.1.0",
+  "description": "Give Facts POC",
+  "main": "EndToEnd.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkelvie/give-facts.git"
+  },
+  "author": "John Kelvie",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jkelvie/give-facts/issues"
+  },
+  "homepage": "https://github.com/jkelvie/give-facts#readme",
+  "dependencies": {
+    "dotenv": "^5.0.0",
+    "jest": "^22.1.4",
+    "virtual-device-sdk": "^1.1.2"
+  },
+  "devDependencies": {}
+}
