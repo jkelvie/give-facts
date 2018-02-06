@@ -1,4 +1,5 @@
-require("dotenv").config();
+require("dotenv").config({ path: "dev.env" });
+
 const vds = require("virtual-device-sdk");
 
 describe("Give Facts End-to-End Test", function() {
