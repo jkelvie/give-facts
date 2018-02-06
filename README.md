@@ -16,7 +16,7 @@ cd give-facts
 npm install
 ```
 
-Setup environment:
+Setup environment variables:
 * Rename the file example.env as .env
 * Change the value for VIRTUAL_DEVICE_TOKEN to the token from https://apps.bespoken.io on the Validation page
 
