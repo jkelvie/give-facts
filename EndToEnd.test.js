@@ -1,5 +1,6 @@
 require("dotenv").config({ path: "dev.env" });
 
+process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
 const vds = require("virtual-device-sdk");
 
 describe("Give Facts End-to-End Test", function() {
